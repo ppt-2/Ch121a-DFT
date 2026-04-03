@@ -1,2 +1,120 @@
-# Ch121a-DFT
-Tutorial to run basic DFT calculations, in a classroom. Implementing minimal tools, lite exposure to ORCA and Jaguar codes
+[![Jupyter Book](https://jupyterbook.org/en/stable/_images/badge.svg)](https://ppt-2.github.io/Ch121a-DFT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
+
+# Ch121a — Quantum Chemistry & DFT in Practice: From Fundamentals to Research
+
+An interactive Jupyter Book for **Ch121a** at Caltech. Covers quantum chemistry and density functional theory from first principles through practical research workflows, using PySCF (open-source), ORCA, and Jaguar.
+
+---
+
+## Chapter Overview
+
+| # | Title | Key Concepts | Molecules | Runtime |
+|---|-------|-------------|-----------|---------|
+| 00 | Setup & Tools | Environment, PySCF basics, visualization | H₂O, CH₄ | < 1 min |
+| 01 | Molecular Structure & Basis Sets | XYZ format, basis set convergence, def2-SVP vs cc-pVTZ | H₂O, HF, N₂ | 2–5 min |
+| 02 | Hartree-Fock Theory | SCF procedure, HF energy, Koopman's theorem | H₂, H₂O, NH₃ | 2–5 min |
+| 03 | DFT Fundamentals | XC functionals, LDA/GGA/hybrid, dispersion | benzene dimer | 5–10 min |
+| 04 | Geometry Optimization | Gradient-based optimization, PES scans | H₂O, ethanol | 5–10 min |
+| 05 | Vibrational Analysis & Thermochemistry | Normal modes, IR spectra, ZPE, ΔG | H₂O, CO₂, CH₄ | 5–10 min |
+| 06 | Molecular Properties | Dipole, polarizability, NMR shielding | H₂O, benzene | 5–10 min |
+| 07 | Reaction Energetics | Reaction enthalpies, isodesmic reactions, BDE | H₂ + F₂ → 2 HF | 5–10 min |
+| 08 | Transition Metal Complexes | d-splitting, spin states, organometallics | ferrocene, Fe(CO)₅ | 10–20 min |
+| 09 | Population Analysis & Bonding | Mulliken, NPA charges, Wiberg BOs, NBO | H₂O, NH₃, BH₃ | 5–10 min |
+| 10 | Excited States & TD-DFT | LR-TDDFT, UV/Vis spectra, CT states | benzene, Mn-porphyrin | 10–20 min |
+| 11 | Solvation Effects | PCM, COSMO, pKa shifts | acetic acid, H₂O | 5–10 min |
+| 12 | ORCA: Capabilities & Practical Guide | Input syntax, RIJCOSX, DLPNO-CCSD(T) | Fe(CO)₅, ferrocene | reference |
+| 13 | Jaguar: Capabilities & Practical Guide | Input/output, Maestro, LMP2, GVB | transition metals | reference |
+
+---
+
+## Installation
+
+### pip
+
+```bash
+git clone https://github.com/ppt-2/Ch121a-DFT.git
+cd Ch121a-DFT
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+jupyter lab
+```
+
+### conda / mamba
+
+```bash
+git clone https://github.com/ppt-2/Ch121a-DFT.git
+cd Ch121a-DFT
+conda env create -f environment.yml
+conda activate ch121a-dft
+jupyter lab
+```
+
+---
+
+## Quick Start
+
+```python
+# Run a DFT calculation on water in 5 lines
+from pyscf import gto, dft
+
+mol = gto.M(atom="O 0 0 0.117; H 0 0.757 -0.469; H 0 -0.757 -0.469",
+            basis="def2-SVP", charge=0, spin=0)
+mf = dft.RKS(mol, xc="b3lyp").run()
+print(f"B3LYP/def2-SVP energy: {mf.e_tot:.6f} Hartree")
+```
+
+---
+
+## Software
+
+| Software | Version | Role | License |
+|----------|---------|------|---------|
+| [PySCF](https://pyscf.org) | ≥ 2.5.0 | Open-source QC engine | Apache-2.0 |
+| [ASE](https://wiki.fysik.dtu.dk/ase/) | ≥ 3.23.0 | Atomic simulation / I/O | LGPL-2.1 |
+| [ORCA](https://orcaforum.kofo.mpg.de) | 6.x | Production DFT/WFT code | Free academic |
+| [Jaguar](https://www.schrodinger.com/jaguar) | 11.x | Commercial DFT, LMP2 | Commercial |
+| [cclib](https://cclib.github.io) | ≥ 1.8.1 | Parse QC output files | BSD-3 |
+| [py3Dmol](https://3dmol.csb.pitt.edu) | ≥ 2.1.0 | 3-D molecular viewer | BSD-3 |
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or pull request on [GitHub](https://github.com/ppt-2/Ch121a-DFT).
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/my-improvement`
+3. Commit your changes and open a pull request against `main`
+
+Please follow existing notebook style and ensure all cells execute cleanly (`jupyter nbconvert --to notebook --execute`).
+
+---
+
+## Citation
+
+If you use this material in your research or teaching, please cite:
+
+```bibtex
+@misc{ch121a-dft,
+  author       = {Ch121a Course, Caltech},
+  title        = {{Ch121a — Quantum Chemistry \& DFT in Practice}},
+  year         = {2024},
+  publisher    = {GitHub},
+  url          = {https://github.com/ppt-2/Ch121a-DFT}
+}
+```
+
+Key software citations:
+
+- **PySCF**: Q. Sun *et al.*, *WIREs Comput. Mol. Sci.* **2018**, *8*, e1340.
+- **ORCA**: F. Neese *et al.*, *WIREs Comput. Mol. Sci.* **2022**, *12*, e1606.
+- **Jaguar**: A. D. Bochevarov *et al.*, *Int. J. Quantum Chem.* **2013**, *113*, 2110.
+
+---
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0**.
+See [LICENSE](LICENSE) for details.
