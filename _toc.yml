@@ -1,0 +1,31 @@
+format: jb-book
+root: intro
+chapters:
+- file: notebooks/00_setup_and_tools
+  title: "00 — Setup & Tools"
+- file: notebooks/01_molecular_structure_and_basis_sets
+  title: "01 — Molecular Structure & Basis Sets"
+- file: notebooks/02_hartree_fock
+  title: "02 — Hartree-Fock Theory"
+- file: notebooks/03_dft_fundamentals
+  title: "03 — DFT Fundamentals"
+- file: notebooks/04_geometry_optimization
+  title: "04 — Geometry Optimization"
+- file: notebooks/05_vibrational_analysis
+  title: "05 — Vibrational Analysis & Thermochemistry"
+- file: notebooks/06_molecular_properties
+  title: "06 — Molecular Properties"
+- file: notebooks/07_reaction_energetics
+  title: "07 — Reaction Energetics"
+- file: notebooks/08_transition_metal_complexes
+  title: "08 — Transition Metal Complexes"
+- file: notebooks/09_nbo_population_analysis
+  title: "09 — Population Analysis & Bonding"
+- file: notebooks/10_excited_states_tddft
+  title: "10 — Excited States & TD-DFT"
+- file: notebooks/11_solvation_effects
+  title: "11 — Solvation Effects"
+- file: notebooks/12_orca_tutorial
+  title: "12 — ORCA: Capabilities & Practical Guide"
+- file: notebooks/13_jaguar_tutorial
+  title: "13 — Jaguar: Capabilities & Practical Guide"

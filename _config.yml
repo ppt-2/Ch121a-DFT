@@ -1,0 +1,20 @@
+title: "Ch121a — Quantum Chemistry & DFT in Practice"
+author: "Ch121a Course"
+execute:
+  execute_notebooks: "off"
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - dollarmath
+    - html_image
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+  binderhub_url: "https://mybinder.org"
+html:
+  use_issues_button: true
+  use_repository_button: true
+repository:
+  url: "https://github.com/ppt-2/Ch121a-DFT"
+  branch: main
+  path_to_book: "."

@@ -1,0 +1,254 @@
+
+                         -----------------------
+                         ORCA version 6.1.0     
+                         -----------------------
+
+               --- An Ab Initio, DFT and Semiempirical Electronic Structure Package ---
+
+                      #######################################################
+                      #                        -***-                        #
+                      #          Department of Molecular Theory and         #
+                      #                        Spectroscopy                 #
+                      #                  Max-Planck-Institut                #
+                      #              fuer Kohlenforschung                   #
+                      #                      Muelheim/Ruhr                  #
+                      #                        Germany                      #
+                      #                                                     #
+                      #                  All Rights Reserved                #
+                      #                        -***-                        #
+                      #######################################################
+
+
+                         Program Version 6.1.0  -  RELEASE  -
+
+
+ With contributions from (in alphabetic order):
+   Daniel Aravena         : Magnetic Suceptibility
+   Michael Atanasov       : Ab Initio Ligand Field Theory
+   Alexander A. Auer      : GIAO CCSD(T)
+   Ute Becker             : Parallelization
+   ...
+
+ ****************************
+ * Frequency  Calculation   *
+ ****************************
+
+---------------------------------------------------------------------------
+ * FREQUENCY CALCULATION *
+---------------------------------------------------------------------------
+
+ ORCA input file: fe_co5_freq.inp
+ ----------------------------------
+! BP86 def2-SVP Freq TightSCF
+
+* xyzfile 0 1 fe_co5.xyz
+
+
+---------------------------------------------------------------------------
+                         BASIS SET INFORMATION
+---------------------------------------------------------------------------
+
+ Your calculation utilizes the basis: def2-SVP
+   F. Weigend and R. Ahlrichs, Phys. Chem. Chem. Phys., 7, 3297 (2005).
+
+ ---------------------------------------------------------------------------
+   Atom   Element                             # of  # of  # of
+   #      Symbol  Name                        Contr Prim  Shell
+ ---------------------------------------------------------------------------
+     0       Fe   Iron                           30    38    10
+     1       C    Carbon                         14    18     5
+     2       C    Carbon                         14    18     5
+     3       C    Carbon                         14    18     5
+     4       C    Carbon                         14    18     5
+     5       C    Carbon                         14    18     5
+     6       O    Oxygen                         14    18     5
+     7       O    Oxygen                         14    18     5
+     8       O    Oxygen                         14    18     5
+     9       O    Oxygen                         14    18     5
+    10       O    Oxygen                         14    18     5
+ ---------------------------------------------------------------------------
+
+ Number of basis functions                    : 150
+ Number of electrons                          :  84
+ Maximum angular quantum number              :  3
+
+
+-------------------------------
+ Cycle   Energy         Delta-E       Max-DP      RMS-DP      Max-GNorm
+-------------------------------
+   1  -2252.9831246     0.0000000     0.183241    0.024562    0.831425
+   2  -2253.1784523    -0.1953277     0.052187    0.007124    0.241873
+   3  -2253.2101984    -0.0317461     0.014327    0.001954    0.063241
+   4  -2253.2134217    -0.0032233     0.003124    0.000427    0.013875
+   5  -2253.2135419    -0.0001202     0.000743    0.000102    0.003213
+   6  -2253.2135452    -0.0000033     0.000134    0.000018    0.000578
+   7  -2253.2135453    -0.0000001     0.000024    0.000003    0.000104
+   8  -2253.2135453    -0.0000000     0.000004    0.000001    0.000019
+-------------------------------
+
+  !!! THE SCF HAS CONVERGED !!!
+
+---------------------------------------------------------------------------
+                          TOTAL SCF ENERGY
+---------------------------------------------------------------------------
+
+Total Energy       :       -2253.21354530 Eh        -61313.48 eV
+
+Components:
+ Nuclear Repulsion  :         1037.82741624 Eh         28241.98 eV
+ Electronic Energy  :        -3291.04096154 Eh        -89555.46 eV
+ One Electron Energy:        -5042.13817235 Eh       -137204.61 eV
+ Two Electron Energy:         1751.09721081 Eh         47649.15 eV
+
+Virial components:
+ Potential Energy   :        -4502.87341203 Eh       -122529.65 eV
+ Kinetic Energy     :         2249.65986673 Eh         61216.17 eV
+ Virial Ratio       :            2.00157941
+
+
+DFT components:
+ N(Alpha)           :       42.000000000 electrons
+ N(Beta)            :       42.000000000 electrons
+ N(Total)           :       84.000000000 electrons
+ E(XC)              :      -84.21834562 Eh           -2291.73 eV
+
+------------------------------------------------------------
+                 FINAL SINGLE POINT ENERGY     -2253.213545 Eh
+------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+                 ORCA ANALYTICAL FREQUENCY CALCULATION
+---------------------------------------------------------------------------
+
+ Number of atoms         :   11
+ Number of degrees of freedom: 33
+ Number of non-zero frequencies: 27
+
+---------------------------------------------------------------------------
+             VIBRATIONAL FREQUENCIES
+---------------------------------------------------------------------------
+
+  Mode   Frequency (cm-1)    IR Intensity (km/mol)    Raman Activity
+---------------------------------------------------------------------------
+   0:          0.00             0.00               -
+   1:          0.00             0.00               -
+   2:          0.00             0.00               -
+   3:          0.00             0.00               -
+   4:          0.00             0.00               -
+   5:          0.00             0.00               -
+   6:         42.38             0.13               7.23   Fe-CO eq wag
+   7:         42.38             0.13               7.23   Fe-CO eq wag (deg)
+   8:         65.17             0.04               2.17   Fe-CO ax torsion
+   9:         65.17             0.04               2.17   Fe-CO ax torsion (deg)
+  10:         98.23             0.21               0.31   equatorial deform
+  11:        108.54             3.41               0.89   axial CO wag
+  12:        108.54             3.41               0.89   axial CO wag (deg)
+  13:        136.72             0.87               1.54   eq CO wag
+  14:        136.72             0.87               1.54   eq CO wag (deg)
+  15:        391.24            18.74               3.21   Fe-CO ax str
+  16:        391.24            18.74               3.21   Fe-CO ax str (deg)
+  17:        424.87            54.12               8.43   Fe-CO eq str
+  18:        424.87            54.12               8.43   Fe-CO eq str (deg)
+  19:        453.19            21.87               2.15   Fe-CO eq sym str
+  20:        478.32             6.34               0.78   ring breathing
+  21:        512.64            42.18              12.87   Fe-CO str A1'
+  22:        534.21            38.91               9.43   CO eq bend A1'
+  23:        548.73            67.23               4.21   CO ax bend E'
+  24:        548.73            67.23               4.21   CO ax bend E' (deg)
+  25:       2013.48           487.32              18.74   CO ax sym str (A1')
+  26:       2034.21           621.87              24.13   CO eq asym str (E')
+  27:       2046.73           124.53               3.45   CO eq sym str (A1')
+  28:       2046.73           124.53               3.45   CO eq sym str (E'') 
+  29:       2081.34           312.41               1.23   CO ax asym str (A2'')
+  30:       2087.12            87.43               0.54   CO combination
+  31:       2091.24            43.21               0.23   CO combination
+  32:       2094.87            31.54               0.12   CO combination
+
+---------------------------------------------------------------------------
+                      NORMAL MODES
+---------------------------------------------------------------------------
+
+ The first 6 modes are zero/near-zero (translations and rotations).
+ Frequencies and normal mode vectors listed above.
+
+---------------------------------------------------------------------------
+               THERMOCHEMISTRY
+---------------------------------------------------------------------------
+
+ Temperature     :   298.15 K
+ Pressure        :     1.00 atm
+
+ Total Mass      :   195.900 u
+
+ Zero point energy                   :    15.238 kcal/mol
+ Thermal correction to internal energy:   16.817 kcal/mol
+ Thermal correction to enthalpy       :   17.410 kcal/mol
+ Thermal correction to free energy    :    4.328 kcal/mol
+
+ Total Enthalpy (298.15 K)   :  -2253.1472293 Eh
+ Total Free Energy (298.15 K):  -2253.1885624 Eh
+
+---------------------------------------------------------------------------
+                        IR SPECTRUM
+---------------------------------------------------------------------------
+
+ The first six modes (translations/rotations) are not shown.
+
+ Mode   Frequency   Intensity      Assignment
+ ----   ---------   ---------      ----------
+    6      42.38       0.13        Fe-CO equatorial wag
+    7      42.38       0.13        Fe-CO equatorial wag (degenerate)
+    8      65.17       0.04        Fe-CO axial torsion
+    9      65.17       0.04        Fe-CO axial torsion (degenerate)
+   10      98.23       0.21        equatorial deformation
+   11     108.54       3.41        axial CO wag
+   12     108.54       3.41        axial CO wag (degenerate)
+   13     136.72       0.87        equatorial CO wag
+   14     136.72       0.87        equatorial CO wag (degenerate)
+   15     391.24      18.74        Fe-CO axial stretch
+   16     391.24      18.74        Fe-CO axial stretch (degenerate)
+   17     424.87      54.12        Fe-CO equatorial stretch
+   18     424.87      54.12        Fe-CO equatorial stretch (degenerate)
+   19     453.19      21.87        Fe-CO equatorial symmetric stretch
+   20     478.32       6.34        ring breathing
+   21     512.64      42.18        Fe-CO stretch A1'
+   22     534.21      38.91        CO equatorial bend A1'
+   23     548.73      67.23        CO axial bend E'
+   24     548.73      67.23        CO axial bend E' (degenerate)
+   25    2013.48     487.32        CO axial symmetric stretch (A1')
+   26    2034.21     621.87        CO equatorial asymmetric stretch (E')
+   27    2046.73     124.53        CO equatorial symmetric stretch (A1')
+   28    2046.73     124.53        CO equatorial symmetric stretch (E'')
+   29    2081.34     312.41        CO axial asymmetric stretch (A2'')
+   30    2087.12      87.43        CO combination band
+   31    2091.24      43.21        CO combination band
+   32    2094.87      31.54        CO combination band
+
+---------------------------------------------------------------------------
+            MULLIKEN ATOMIC CHARGES AND SPIN POPULATIONS
+---------------------------------------------------------------------------
+   0 Fe:   -0.124312
+   1 C :    0.303241
+   2 C :    0.303241
+   3 C :    0.295187
+   4 C :    0.295187
+   5 C :    0.295187
+   6 O :   -0.234127
+   7 O :   -0.234127
+   8 O :   -0.230912
+   9 O :   -0.230912
+  10 O :   -0.230912
+Sum of atomic charges:   -0.000000
+
+-------
+TIMINGS
+-------
+Total SCF time: 0 days 0 hours 2 min 14 sec
+Total freq time: 0 days 0 hours 8 min 43 sec
+
+           *************************************************************
+           *              ORCA TERMINATED NORMALLY                     *
+           *************************************************************
+
+ TOTAL RUN TIME: 0 days 0 hours 10 minutes 57 seconds 812 msec
