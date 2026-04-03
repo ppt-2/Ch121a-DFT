@@ -2,7 +2,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 
-# Ch121a — Quantum Chemistry & DFT in Practice: From Fundamentals to Research
+# Ch121a — Quantum Chemistry & DFT for small molecules (finite systems): From Fundamentals to Research
 
 An interactive Jupyter Book for **Ch121a** https://cce.caltech.edu/academics/courses/ch-121-ab at Caltech. Covers quantum chemistry and density functional theory from first principles through practical research workflows, using PySCF (open-source), ORCA, and Jaguar.
 
