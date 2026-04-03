@@ -1,0 +1,13 @@
+format: jb-book
+root: intro
+chapters:
+- file: notebooks_v2/00_setup_and_tools
+  title: "00 — Setup & Tools"
+- file: notebooks_v2/01_basics_of_hf_dft_and_basis_sets
+  title: "01 — Basics of HF, DFT and Basis Sets"
+- file: notebooks_v2/02_geometry_molecular_properties_reactions_and_energies
+  title: "02 — Geometry, Molecular Properties, Reactions and Energies"
+- file: notebooks_v2/08_transition_metal_complexes
+  title: "08 — Transition Metal Complexes"
+- file: notebooks_v2/03_orca_and_jaguar
+  title: "03 — ORCA and Jaguar: Capabilities & Practical Guide"
