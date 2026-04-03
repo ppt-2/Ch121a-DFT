@@ -12,22 +12,13 @@ Only very basic examples are covered so that general calculations can run easily
 
 ## Chapter Overview
 
-| # | Title | Key Concepts | Molecules | Runtime |
-|---|-------|-------------|-----------|---------|
-| 00 | Setup & Tools | Environment, PySCF basics, visualization | H₂O, CH₄ | < 1 min |
-| 01 | Molecular Structure & Basis Sets | XYZ format, basis set convergence, def2-SVP vs cc-pVTZ | H₂O, HF, N₂ | 2–5 min |
-| 02 | Hartree-Fock Theory | SCF procedure, HF energy, Koopman's theorem | H₂, H₂O, NH₃ | 2–5 min |
-| 03 | DFT Fundamentals | XC functionals, LDA/GGA/hybrid, dispersion | benzene dimer | 5–10 min |
-| 04 | Geometry Optimization | Gradient-based optimization, PES scans | H₂O, ethanol | 5–10 min |
-| 05 | Vibrational Analysis & Thermochemistry | Normal modes, IR spectra, ZPE, ΔG | H₂O, CO₂, CH₄ | 5–10 min |
-| 06 | Molecular Properties | Dipole, polarizability, NMR shielding | H₂O, benzene | 5–10 min |
-| 07 | Reaction Energetics | Reaction enthalpies, isodesmic reactions, BDE | H₂ + F₂ → 2 HF | 5–10 min |
-| 08 | Transition Metal Complexes | d-splitting, spin states, organometallics | ferrocene, Fe(CO)₅ | 10–20 min |
-| 09 | Population Analysis & Bonding | Mulliken, NPA charges, Wiberg BOs, NBO | H₂O, NH₃, BH₃ | 5–10 min |
-| 10 | Excited States & TD-DFT | LR-TDDFT, UV/Vis spectra, CT states | benzene, Mn-porphyrin | 10–20 min |
-| 11 | Solvation Effects | PCM, COSMO, pKa shifts | acetic acid, H₂O | 5–10 min |
-| 12 | ORCA: Capabilities & Practical Guide | Input syntax, RIJCOSX, DLPNO-CCSD(T) | Fe(CO)₅, ferrocene | reference |
-| 13 | Jaguar: Capabilities & Practical Guide | Input/output, Maestro, LMP2, GVB | transition metals | reference |
+| # | Title |
+|---|-------|
+| 00 | Setup & Tools |
+| 01 | Basics of HF, DFT and Basis Sets |
+| 02 | Geometry, Molecular Properties, Reactions and Energies |
+| 03 | ORCA and Jaguar: Capabilities & Practical Guide |
+| 08 | Test Cases |
 
 ---
 
