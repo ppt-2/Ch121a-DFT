@@ -1,0 +1,4 @@
+! Opt freq B3LYP 6-31g+ chelpg PAL2
+
+* xyzfile 0 1 water.xyz
+
