@@ -5,6 +5,7 @@
 # Ch121a — Quantum Chemistry & DFT for small molecules (finite systems): From Fundamentals to Research
 
 _Some lectures and tutorials: Prabhat Prakash_
+
 _Course Instructor: Prof. William A. Goddard III_
 
 An interactive Jupyter Book for **Ch121a** https://cce.caltech.edu/academics/courses/ch-121-ab at Caltech. Covers quantum chemistry and density functional theory from first principles through practical research workflows, using PySCF (open-source), ORCA, and Jaguar.
