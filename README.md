@@ -97,9 +97,9 @@ If you use this material in your research or teaching, please cite:
 
 ```bibtex
 @misc{ch121a-dft,
-  author       = {Prakash, Prabhat},
+  author       = {Prakash, Prabhat; Goddard III, William A.},
   title        = {{Ch121a — Quantum Chemistry \& DFT in Practice}},
-  year         = {2024},
+  year         = {2026},
   publisher    = {GitHub},
   url          = {https://github.com/ppt-2/Ch121a-DFT}
 }
