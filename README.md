@@ -6,7 +6,7 @@
 
 An interactive Jupyter Book for **Ch121a** https://cce.caltech.edu/academics/courses/ch-121-ab at Caltech. Covers quantum chemistry and density functional theory from first principles through practical research workflows, using PySCF (open-source), ORCA, and Jaguar.
 
-**Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in /Initialization directory" 
+**Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in /Initialization directory** 
 
 Only very basic examples are covered so that general calculations can run easily even on a laptop.
 
