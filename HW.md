@@ -167,11 +167,13 @@ Torsion (dihedral) potentials govern the conformational flexibility of hydrocarb
 
 
 # CHARMM torsion profile (illustrative)
+
 def V_charmm(phi_deg):
     phi = np.radians(phi_deg)
     return (0.2000 * (1 + np.cos(3 * phi)) +
             0.2500 * (1 + np.cos(2 * phi)) +
             0.1600 * (1 + np.cos(1 * phi)))
+
 
 # OPLS torsion profile (Ryckaert-Bellemans)
 def V_opls(phi_deg):
