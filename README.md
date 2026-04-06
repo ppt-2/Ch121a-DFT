@@ -24,7 +24,7 @@ Only very basic examples are covered so that general calculations can run easily
 | 01 | Basics of HF, DFT and Basis Sets |
 | 02 | Geometry, Molecular Properties, Reactions and Energies |
 | 03 | ORCA and Jaguar: Capabilities & Practical Guide |
-| 08 | Test Cases |
+| 04 | Test Cases |
 
 ---
 
