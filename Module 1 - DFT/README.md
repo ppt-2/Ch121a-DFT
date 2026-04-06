@@ -104,7 +104,7 @@ If you use this material in your research or teaching, please cite:
   url          = {https://github.com/ppt-2/Ch121a-DFT}
 }
 ```
-
+Read more in [Introduction](intro.md)
 Read more about some of these codes at:
 
 - **PySCF**: Q. Sun *et al.*, *WIREs Comput. Mol. Sci.* **2018**, *8*, e1340.
