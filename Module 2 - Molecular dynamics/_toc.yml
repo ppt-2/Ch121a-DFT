@@ -1,0 +1,17 @@
+format: jb-book
+root: intro
+chapters:
+- file: notebooks/01_introduction_to_md
+  title: "01 — Introduction to Molecular Dynamics"
+- file: notebooks/02_bonded_vs_nonbonded
+  title: "02 — Bonded vs. Nonbonded Interactions"
+- file: notebooks/03_force_fields_and_pbc
+  title: "03 — Empirical Force Fields, PBC & Minimum Image"
+- file: notebooks/04_analysis_of_simulations
+  title: "04 — Analysis of MD Simulations"
+- file: notebooks/05_nonequilibrium_md_metadynamics
+  title: "05 — Non-Equilibrium MD & Metadynamics"
+- file: notebooks/06_tutorial_water_lammps
+  title: "06 — Tutorial 1: Water MD in LAMMPS"
+- file: notebooks/07_tutorial_protein_unfolding_gromacs
+  title: "07 — Tutorial 2: Protein Unfolding in GROMACS"
