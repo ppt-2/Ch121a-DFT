@@ -1,0 +1,13 @@
+format: jb-book
+root: intro
+chapters:
+- file: notebooks/01_finite_to_periodic_dft
+  title: "01 — From Finite to Periodic DFT"
+- file: notebooks/02_planewaves_pseudopotentials_kpoints
+  title: "02 — Plane-waves, Pseudopotentials & k-points"
+- file: notebooks/03_codes_workflow_visualization
+  title: "03 — Codes, Workflow & Visualization"
+- file: notebooks/04_example_calculations
+  title: "04 — Example Calculations"
+- file: notebooks/05_aimd_and_mlff
+  title: "05 — Ab-initio MD & Machine-learned Force-fields"
