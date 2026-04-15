@@ -17,3 +17,5 @@ chapters:
   title: "06 — Tutorial 1: Water MD in LAMMPS"
 - file: notebooks/07_tutorial_protein_unfolding_gromacs
   title: "07 — Tutorial 2: Protein Unfolding in GROMACS"
+- file: notebooks/07a_tutorial_co2_bicarbonate_fep
+  title: "07a — Tutorial 3: CO₂ vs. Bicarbonate Solvation Free Energy (FEP)"

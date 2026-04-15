@@ -14,3 +14,4 @@ This module covers classical molecular dynamics simulations: theory, force field
 | 06-pre | Building a Water Box: PACKMOL & OVITO | PACKMOL packing, OVITO visualization & RDF |
 | 06 | Tutorial 1: Water in LAMMPS | SPC/E, LAMMPS scripts, RDF, diffusion |
 | 07 | Tutorial 2: Protein Unfolding in GROMACS | Chignolin, umbrella sampling, WHAM, PMF |
+| 07a | Tutorial 3: CO₂ vs. Bicarbonate Solvation Free Energy (FEP) | Zwanzig FEP, BAR, TI, alchemical λ-coupling, Born model |
