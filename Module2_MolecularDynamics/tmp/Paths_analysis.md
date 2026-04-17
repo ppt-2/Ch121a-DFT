@@ -13,5 +13,5 @@
 If access trouble
 
 ```
-/home/pprakash/2pt/bin
+awk "{print $1, $3}" results_filename > out.txt
 ```
