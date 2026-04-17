@@ -6,4 +6,12 @@
 ### Travis code, webpage http://www.travis-analyzer.de
 ```
 /resnick/groups/wag/wag_programs/travis-src-220729
+
+```
+
+
+If access trouble
+
+```
+/home/pprakash/2pt/bin
 ```
