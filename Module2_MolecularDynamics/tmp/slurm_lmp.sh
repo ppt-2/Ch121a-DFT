@@ -16,7 +16,7 @@ pwd
 cwd=$(pwd)
 echo $SLURM_JOBID "${cwd}" >> ~/job_history
 
-mpirun -np 4  /resnick/groups/wag/wag_programs/lammps-22Jul2025/src/lmp_mpi -in in.min_eql_prod
+mpirun -np 4  /resnick/groups/wag/wag_programs/lammps-22Jul2025/src/lmp_mpi -in in.prod_spectra
 
 
 date

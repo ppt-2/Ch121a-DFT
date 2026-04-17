@@ -1,0 +1,14 @@
+IN_LMPDATA                    water_nvt_end.data
+IN_LMPTRJ                     2pt1.300K
+ANALYSIS_FRAME_INITIAL        1
+ANALYSIS_FRAME_FINAL          10000
+ANALYSIS_FRAME_STEP           1
+ANALYSIS_VAC_CORLENGTH        0.5
+ANALYSIS_VAC_MEMORYMB         50000
+ANALYSIS_VAC_2PT              2
+ANALYSIS_OUT                  result_2pt_water
+ANALYSIS_LMP_TSTEP            0.001
+ANALYSIS_VAC_LINEAR_MOL       g
+ANALYSIS_VAC_ROTN_SYMMETRY    g
+ANALYSIS_VAC_FIXED_DF         g
+IN_GROUPFILE                  LCPS.grps

@@ -6,7 +6,7 @@ units           real
 atom_style      full
 boundary        p p p
 
-read_restart    restart.npt300K.50000 
+read_restart    restart.nvt300K.20000 
 #read_data       water.data
 
 # --- Force field ---
@@ -31,27 +31,19 @@ neighbor        2.0 bin
 neigh_modify    every 1 delay 0 check yes
 
 reset_timestep 0
-# --- Nosé-Hoover NVT: T=300 K 20 + 20 ps ---
-fix             1 all nvt temp 300.0 300.0 100.0
-
-timestep        1.0
-log             nvt.eng
-thermo          100
-thermo_style    custom step temp press etotal ke pe evdwl ecoul vol
-thermo_modify line multi
-
-# Trajectory for nvt eql (20 ps)
-dump            1 all custom 1000 nvt_traj.lammpstrj id element x y z vx vy vz
-dump_modify     1 sort id element O H
-restart         20000 restart.nvt300K.*
-run             20000      # 200 ps
-# Fine 20 ps
-undump 1
-dump            1 all custom 2 nvt_fine.lammpstrj id element x y z vx vy vz
-dump_modify     1 sort id element O H
-restart         10000 restart.nvt_vibra.*
-run             20000      # 200 ps
 
 
-write_data      water_nvt_end.data
-
+thermo 2
+ log             2pt1.300K.eng
+dump                 2 all custom 2 2pt1.300K.lammps id type xu yu zu vx vy vz
+#dump                 3 all custom 2 2p1t_${sname}.298K.lmp id element xu yu zu q
+#dump_modify          3 sort id element H O
+dump_modify          2 first yes sort id
+fix             1 all nvt temp 300 300 100.0
+ thermo_style    custom etotal ke temp pe ebond eangle edihed eimp evdwl ecoul elong press vol
+ thermo_modify   line multi
+restart 10000 checkpoints.*
+ run             20000
+undump          2
+#undump          3
+unfix           1
