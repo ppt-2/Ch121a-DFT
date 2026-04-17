@@ -1,4 +1,4 @@
-# Some more analysis tools in wag group
+# Some robust analysis tools
 ### 2PT code, paper: https://doi.org/10.1021/jp103120q
 ```
 /resnick/groups/wag/wag_programs/2pt
