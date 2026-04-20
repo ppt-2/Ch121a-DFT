@@ -11,3 +11,5 @@ chapters:
   title: "04 — Example Calculations"
 - file: notebooks/05_aimd_and_mlff
   title: "05 — Ab-initio MD & Machine-learned Force-fields"
+- file: notebooks/06_applications_of_pwdft
+  title: "06 — Applications of Plane-wave DFT"

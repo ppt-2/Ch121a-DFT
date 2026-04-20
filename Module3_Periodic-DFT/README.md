@@ -21,7 +21,8 @@ Module3_Periodic-DFT/
 │   ├── 02_planewaves_pseudopotentials_kpoints.ipynb
 │   ├── 03_codes_workflow_visualization.ipynb
 │   ├── 04_example_calculations.ipynb
-│   └── 05_aimd_and_mlff.ipynb
+│   ├── 05_aimd_and_mlff.ipynb
+│   └── 06_applications_of_pwdft.ipynb
 └── tmp/
     ├── Si_dos/
     │   ├── vasp/    INCAR_scf, INCAR_dos, KPOINTS_scf, KPOINTS_dos, POSCAR
@@ -47,6 +48,7 @@ Module3_Periodic-DFT/
 | 03 | Codes, Workflow & Visualization | VASP input files (INCAR/POSCAR/POTCAR/KPOINTS), Quantum ESPRESSO pw.x, VESTA, vaspkit, pymatgen/Materials Project API |
 | 04 | Example Calculations | Si DOS, TiO₂ band gap (PBE vs. PBE+U), graphene Dirac cone bands, Co-Pc+CO spin-state energetics |
 | 05 | Ab-initio MD & MLFFs | BOMD with VASP, thermostat settings, MLFF architectures, VASP ML-FF, MACE-MP-0 universal potential |
+| 06 | Applications of Plane-wave DFT | Catalysis, semiconductors, light-matter interactions, batteries |
 
 ---
 

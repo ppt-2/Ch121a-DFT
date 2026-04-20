@@ -19,6 +19,7 @@ An interactive Jupyter Book for **Module 3** of Ch121a. This module takes you fr
 | 03 | Codes, Workflow & Visualization | VASP input files, Quantum ESPRESSO, VESTA, vaspkit, pymatgen |
 | 04 | Example Calculations | Si DOS, TiO₂ band gap, graphene bands, Co-Pc+CO spin state |
 | 05 | Ab-initio MD & Machine-learned Force-fields | AIMD, BOMD, MLFFs, MACE, universal potentials |
+| 06 | Applications of Plane-wave DFT | Catalysis, semiconductors, light–matter interactions, batteries |
 
 ---
 
