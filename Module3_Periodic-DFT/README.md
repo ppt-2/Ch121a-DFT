@@ -3,7 +3,7 @@
 # Ch121a — Module 3: Periodic DFT
 
 **Course**: Ch121a — Quantum Chemistry & DFT in Practice, Caltech  
-**Instructor**: Prof. William A. Goddard III
+**Co-instructor**: Dr. Prabhat Prakash
 
 This module covers periodic (solid-state) DFT from conceptual foundations through practical workflows, example calculations, and machine-learned force fields.
 
