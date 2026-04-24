@@ -11,6 +11,7 @@ echo $SLURM_JOBID "${cwd}" >> ~/job_history
 
 mpirun -np 2 /resnick/groups/wag/programs/vasp.6.6.0/bin/vasp_std
 
-
+## Path for vaspkit: 
+##  /resnick/groups/wag/prabhat/programs/vaspkit.1.5.1/bin/vaspkit
 date
 
