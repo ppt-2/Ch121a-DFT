@@ -1,0 +1,13 @@
+SYSTEM  = Si bulk PBE
+ISTART  = 0          # start from scratch
+ICHARG  = 2          # superposition of atomic charges
+ENCUT   = 400        # plane-wave cutoff (eV)
+PREC    = Low        # **Change to accurate for homework**
+EDIFF   = 1E-4       # energy convergence (eV) **Change to 1E-6 for homework**
+NSW     = 0          # no ionic relaxation
+IBRION  = -1
+ISMEAR  = 0          # Gaussian smearing
+SIGMA   = 0.05       # smearing width (eV)
+ALGO    = Normal
+LWAVE   = .TRUE.     # write WAVECAR for DOS step
+LCHARG  = .TRUE.     # write CHGCAR

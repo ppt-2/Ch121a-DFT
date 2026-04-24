@@ -1,0 +1,16 @@
+SYSTEM  = Si bulk PBE DOS
+ISTART  = 1          # read WAVECAR from SCF step
+ICHARG  = 11         # non-self-consistent, read CHGCAR
+ENCUT   = 400
+PREC    = Accurate
+EDIFF   = 1E-5
+NSW     = 0
+IBRION  = -1
+ISMEAR  = -5         # tetrahedron method (best for DOS)
+SIGMA   = 0.05
+NEDOS   = 2000       # number of DOS grid points
+LORBIT  = 11         # projected (lm-resolved) DOS
+EMIN    = -10.0      # DOS energy range min (eV)
+EMAX    =  10.0      # DOS energy range max (eV)
+LWAVE   = .FALSE.
+LCHARG  = .FALSE.
