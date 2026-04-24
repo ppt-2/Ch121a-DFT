@@ -9,7 +9,7 @@ This module covers periodic (solid-state) DFT from conceptual foundations throug
 
 ---
 
-## Directory Structure
+## Structure
 
 ```
 Module3_Periodic-DFT/
@@ -20,21 +20,16 @@ Module3_Periodic-DFT/
 │   ├── 01_finite_to_periodic_dft.ipynb
 │   ├── 02_planewaves_pseudopotentials_kpoints.ipynb
 │   ├── 03_codes_workflow_visualization.ipynb
-│   ├── 04_example_calculations.ipynb
+│   ├── 04a_example_calculations_basic.ipynb
+|   ├── 04b_example_calculations_advanced.ipynb
 │   ├── 05_aimd_and_mlff.ipynb
 │   └── 06_applications_of_pwdft.ipynb
 └── tmp/
+    ├── sample/
+    |   └── Sample structures, scripts
     ├── Si_dos/
     │   ├── vasp/    INCAR_scf, INCAR_dos, KPOINTS_scf, KPOINTS_dos, POSCAR
     │   └── qe/      si_scf.in, si_nscf.in, si_dos.in
-    ├── TiO2_bandgap/
-    │   ├── vasp/    INCAR_scf_gga, INCAR_scf_dftu, KPOINTS, POSCAR
-    │   └── qe/      tio2_scf.in
-    ├── graphene_bands/
-    │   ├── vasp/    INCAR_scf, INCAR_bands, KPOINTS_scf, KPOINTS_bands, POSCAR
-    │   └── qe/      graphene_scf.in, graphene_bands.in
-    └── CoPc_CO_spin/
-        └── vasp/    INCAR_highspin, INCAR_lowspin, KPOINTS, POSCAR_CoPc_CO
 ```
 
 ---
@@ -46,7 +41,8 @@ Module3_Periodic-DFT/
 | 01 | From Finite to Periodic DFT | Supercells, PBC, Bloch's theorem, reciprocal lattice, Brillouin zone, band structure vs. MO diagram, applicability |
 | 02 | Plane-waves, Pseudopotentials & k-points | ENCUT convergence, PAW vs. USPP vs. NCpp, Monkhorst-Pack grids, smearing methods, DFT+U, vdW corrections |
 | 03 | Codes, Workflow & Visualization | VASP input files (INCAR/POSCAR/POTCAR/KPOINTS), Quantum ESPRESSO pw.x, VESTA, vaspkit, pymatgen/Materials Project API |
-| 04 | Example Calculations | Si DOS, TiO₂ band gap (PBE vs. PBE+U), graphene Dirac cone bands, Co-Pc+CO spin-state energetics |
+| 04a | Example Calculations | Si DOS, band gap |
+| 04b | Example Calculations | CO vs. H adsorption on Cu-100 surface |
 | 05 | Ab-initio MD & MLFFs | BOMD with VASP, thermostat settings, MLFF architectures, VASP ML-FF, MACE-MP-0 universal potential |
 | 06 | Applications of Plane-wave DFT | Catalysis, semiconductors, light-matter interactions, batteries |
 
