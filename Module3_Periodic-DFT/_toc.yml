@@ -7,8 +7,10 @@ chapters:
   title: "02 — Plane-waves, Pseudopotentials & k-points"
 - file: notebooks/03_codes_workflow_visualization
   title: "03 — Codes, Workflow & Visualization"
-- file: notebooks/04_example_calculations
-  title: "04 — Example Calculations"
+- file: notebooks/04a_example_calculations
+  title: "04a — Basic Examples: Si DOS & Band Gap"
+- file: notebooks/04b_adsorption_energy
+  title: "04b — Advanced Examples: CO vs. H Adsorption on Cu(100)"
 - file: notebooks/05_aimd_and_mlff
   title: "05 — Ab-initio MD & Machine-learned Force-fields"
 - file: notebooks/06_applications_of_pwdft
