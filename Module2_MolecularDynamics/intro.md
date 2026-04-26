@@ -12,5 +12,5 @@ This module covers classical molecular dynamics simulations: theory, force field
 | 04 | Analysis of Simulations | g(r), VACF, MSD, diffusion, thermodynamics |
 | 05 | Non-Equilibrium MD & Metadynamics | SMD, Jarzynski, metadynamics, FES |
 | 06-pre | Building a Water Box: PACKMOL & OVITO | PACKMOL packing, OVITO visualization & RDF |
-| 06 | Tutorial 1: Water in LAMMPS | SPC/E, LAMMPS scripts, RDF, diffusion |
+| 06a | Tutorial : Water in LAMMPS | SPC/E, LAMMPS scripts, RDF, diffusion, two-phase thermodynamic model (2PT) |
 
