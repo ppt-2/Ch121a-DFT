@@ -5,8 +5,10 @@ chapters:
   title: "01 — From Finite to Periodic DFT"
 - file: notebooks/02_planewaves_pseudopotentials_kpoints
   title: "02 — Plane-waves, Pseudopotentials & k-points"
-- file: notebooks/03_codes_workflow_visualization
-  title: "03 — Codes, Workflow & Visualization"
+- file: notebooks/03a_codes_workflow_visualization
+  title: "03a — Codes, Workflow & Visualization"
+- file: notebooks/03b_bader_neb_metadynamics
+  title: "03b — Bader Charges, NEB & Metadynamics"
 - file: notebooks/04a_example_calculations
   title: "04a — Basic Examples: Si DOS & Band Gap"
 - file: notebooks/04b_adsorption_energy
