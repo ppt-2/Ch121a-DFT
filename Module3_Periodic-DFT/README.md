@@ -19,7 +19,8 @@ Module3_Periodic-DFT/
 ├── notebooks/
 │   ├── 01_finite_to_periodic_dft.ipynb
 │   ├── 02_planewaves_pseudopotentials_kpoints.ipynb
-│   ├── 03_codes_workflow_visualization.ipynb
+│   ├── 03a_codes_workflow_visualization.ipynb
+│   ├── 03b_Bader_NEB_ImDimer.ipynb
 │   ├── 04a_example_calculations_basic.ipynb
 |   ├── 04b_example_calculations_advanced.ipynb
 │   ├── 05_aimd_and_mlff.ipynb
@@ -40,7 +41,8 @@ Module3_Periodic-DFT/
 |---|----------|--------|
 | 01 | From Finite to Periodic DFT | Supercells, PBC, Bloch's theorem, reciprocal lattice, Brillouin zone, band structure vs. MO diagram, applicability |
 | 02 | Plane-waves, Pseudopotentials & k-points | ENCUT convergence, PAW vs. USPP vs. NCpp, Monkhorst-Pack grids, smearing methods, DFT+U, vdW corrections |
-| 03 | Codes, Workflow & Visualization | VASP input files (INCAR/POSCAR/POTCAR/KPOINTS), Quantum ESPRESSO pw.x, VESTA, vaspkit, pymatgen/Materials Project API |
+| 03a | Codes, Workflow & Visualization | VASP input files (INCAR/POSCAR/POTCAR/KPOINTS), Quantum ESPRESSO pw.x, VESTA, vaspkit, pymatgen/Materials Project API |
+| 03b | Bader, NEB and Improved dimer calculations |
 | 04a | Example Calculations | Si DOS, band gap |
 | 04b | Example Calculations | CO vs. H adsorption on Cu-100 surface |
 | 05 | Ab-initio MD & MLFFs | BOMD with VASP, thermostat settings, MLFF architectures, VASP ML-FF, MACE-MP-0 universal potential |
