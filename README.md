@@ -19,10 +19,7 @@ Only very basic examples are covered so that general calculations can run easily
 |---|-------|
 | 01 | Quantum Chemistry (theory) and DFT for finite structures |
 | 02 | Molecular Dynamics |
-| 03 | DFT in condensed phase, solid-state electronic structure |
-| 03a | Materials properties with periodic DFT |
-| 03b | Ab-initio molecular dynamics, machine-learning interatomic potentials |
-
+| 03 | DFT in condensed phase, solid-state electronic structure, MLIPs |
 ---
 
 ## Installation
