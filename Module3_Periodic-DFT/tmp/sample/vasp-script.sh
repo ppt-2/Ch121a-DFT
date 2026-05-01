@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=2
+#SBATCH --ntasks-per-node=8
 #SBATCH --time=0:30:00               # Time limit hrs:min:sec
 
 
@@ -8,10 +8,9 @@ module load intel-oneapi-mkl/2023.2.0-gcc-11.3.1-idewa6m intel-oneapi-compilers/
 pwd
 cwd=$(pwd)
 echo $SLURM_JOBID "${cwd}" >> ~/job_history
+ulimit -s unlimited
+mpirun -np 8 /resnick/groups/wag/programs/vasp.6.6.0/bin/vasp_std
 
-mpirun -np 2 /resnick/groups/wag/programs/vasp.6.6.0/bin/vasp_std
 
-## Path for vaspkit: 
-##  /resnick/groups/wag/prabhat/programs/vaspkit.1.5.1/bin/vaspkit
 date
 
