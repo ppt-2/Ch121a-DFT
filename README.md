@@ -5,7 +5,7 @@
 # Ch121a — Atomic-Level Simulations of Materials and Molecules
 _Course Instructor: Dr. Prabhat Prakash, Prof. William A. Goddard III_
 **For some of the proposed projects, practical workflow is now added here:
-[Module1_DFT/ Notebook 4](https://github.com/ppt-2/Ch121a-DFT/blob/main/Module1_DFT/notebooks_v2/05_practical_calculations.ipynb).**  
+[Module1_DFT/ Notebook 5](https://github.com/ppt-2/Ch121a-DFT/blob/main/Module1_DFT/notebooks_v2/05_practical_calculations.ipynb).**  
 An interactive Jupyter Book for **Ch121a** https://cce.caltech.edu/academics/courses/ch-121-ab at Caltech. Covers quantum chemistry, density functional theory, molecular dynamics and some new flavors of compuational chemistry from first principles through practical research workflows, using some open-source: PySCF, ORCA, LAMMPS, Gromacs, Quantum Espresso, and a commercial code, VASP. 
 
 **Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in 'Initialization' directory** 
