@@ -159,7 +159,7 @@ plt.show()
 
 
 ## Homework
-1. A-I: Calculate the ~HOMO-LUMO gap~ band gap of pentacene, this time, with its crystal structure, with PBE functional in periodic DFT. Comment whether a more accurate functional is important or the molecular crystallanity. In INCAR, also use IVDW = 12 tag in your INCAR files to include vdW corrections.
+1. A-I: Calculate the ~HOMO-LUMO gap~ band gap of pentacene, this time, with its crystal structure, with PBE functional in periodic DFT. Comment whether a more accurate functional is important or the molecular crystallinity. In INCAR, also use IVDW = 12 tag in your INCAR files to include vdW corrections.
 2. J-R: Calculate the surface energies of 100, 110 and 111 Li surfaces and comment on the reactivity of these surfaces.
 3. S-Z: Molybdenum disulfide exists in two different structures, rhombohedral (3R) and hexagonal (2H). Compute band gap for both, with PBE. In INCAR, also use IVDW = 12 tag in your INCAR files to include vdW corrections.
 
