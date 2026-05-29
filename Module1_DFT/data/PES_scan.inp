@@ -1,0 +1,22 @@
+# Potential energy scan sample for [HCO3-] --> [CO2] + [OH-] reaction
+# Use r2SCAN-3c or B97-3c methods for these, B97-3c is cheaper than r2SCAN-3c. 
+# 3c methods are fast and reliable for such initial DFT calculations, often better than B3LYP. 
+# In Orca, with 'B97-3c' or 'r2SCAN-3c', one does not need to mention basis, its by default. 
+# B97-3c by default uses a modified, stripped-down triple-basis termed 'def2-mTZVP'
+# r2SCAN-3c by default uses a modified triple-basis set, def2-mTZVPP
+# B97-3c less costly than r2scan-3c
+# more on composite methods https://www.faccts.de/docs/orca/6.1/manual/contents/modelchemistries/3cmethods.html
+
+!B97-3c PAL8 
+%geom
+   Scan B 0 1 = 1.435, 2.435, 20 # Notice that serial number starts from 0, C...O Bond is stretched from 1.435 to 2.435 in 20 successive steps, 0.05 angstrom each.
+end
+end
+
+* xyz -1 1
+  C   5.09214671911914     14.37582786514315     10.37494593085410
+  O   5.06356720567024     14.90660749918449      9.14913234780098
+  O   4.14081446914101     14.28733973411539     11.09044523348283
+  O   6.34109143974287     13.95651420955069     10.68714886461094
+  H   5.94474289518905     14.86951586731268      8.76221955713690
+*
