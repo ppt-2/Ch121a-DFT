@@ -7,7 +7,7 @@
 # B97-3c less costly than r2scan-3c
 # more on composite methods https://www.faccts.de/docs/orca/6.1/manual/contents/modelchemistries/3cmethods.html
 
-!B97-3c PAL8 
+!B97-3c opt PAL8 
 %geom
    Scan B 0 1 = 1.435, 2.435, 20 # Notice that serial number starts from 0, C...O Bond is stretched from 1.435 to 2.435 in 20 successive steps, 0.05 angstrom each.
 end
