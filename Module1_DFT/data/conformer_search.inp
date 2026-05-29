@@ -2,6 +2,10 @@
 # that can be opened in avogadro2 and visualized along energy/RMSE. 
 # Goat is  Global Optimizer Algorithm (GOAT) inspired by 
 # Wales and Doye’s basin-hopping, Goedecker’s minima hopping, 
-# Simulated Annealing and Taboo Search. ![https://www.faccts.de/docs/orca/6.0/manual/contents/typical/GOAT.html](https://www.faccts.de/docs/orca/6.0/manual/contents/typical/GOAT.html)
+# Simulated Annealing and Taboo Search. 
+# Read more at: https://www.faccts.de/docs/orca/6.0/manual/contents/typical/GOAT.html
+# Below lines starting with '!' show a test.xyz input file scanned for conformers.
 # This line and above are comments, input in below: 
 !xtb goat pal8
+
+* xyzfile 0 1 test.xyz
