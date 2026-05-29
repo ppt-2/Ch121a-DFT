@@ -1,0 +1,14 @@
+# Final geometries of predicted structures is generally in 'test.finalensemble.xyz' 
+# that can be opened in avogadro2 and visualized along energy/RMSE. 
+# Goat is  Global Optimizer Algorithm (GOAT) inspired by 
+# Wales and Doye’s basin-hopping, Goedecker’s minima hopping, 
+# Simulated Annealing and Taboo Search. 
+# Read more at: https://www.faccts.de/docs/orca/6.0/manual/contents/typical/GOAT.html
+# Below lines starting with '!' show a test.xyz input file scanned for conformers.
+# Goat-react and Goat-explore are further extensions of this tool for reactant to product exploration (react) 
+# and conformer search away from the provided structure. 
+# This line and above are comments, sample input is below, good to run with 8 parallel processes: 
+####################################################
+!xtb goat pal8
+
+* xyzfile 0 1 test.xyz

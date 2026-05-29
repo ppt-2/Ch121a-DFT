@@ -1,0 +1,11 @@
+# Assuming you have a good guess about product geometry say, CO2+OH- for HCO3- reactant in example. 
+# Take both optimized geoemtries prepared as 'reactant.xyz' and 'product.xyz' and run NEB. 
+# If very sure, use 'FREQ' keyword to obtain one imaginary mode. 
+# One could also put a good guess of TS as NEB_TS_XYZFILE "guessTS.xyz" from previous calculation (say optTS or a good guess) to converge faster. 
+# Note this is bicarbonate to CO2+OH- example thus charge is -1. 
+!r2SCAN-3c NEB-TS FREQ PAL8
+%neb 
+NEB_END_XYZFILE "product.xyz"
+end 
+
+*xyzfile -1 1 reactant.xyz

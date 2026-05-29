@@ -1,0 +1,6 @@
+# Assuming you have a PES or good guess of TS geometry (here continued from PES HCO3- reaction example). 
+# Take the PES highest energy point or your own guess geoemtry prepared as 'opt_step10.xyz' and run optTS. 
+# If very sure, use 'FREQ' keyword to obtain one imaginary mode. 
+!r2SCAN-3c OptTS
+
+*xyzfile 0 1 opt_step10.xyz
