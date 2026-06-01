@@ -5,7 +5,7 @@
 # Ch121a: Atomic-Level Simulations of Materials and Molecules
 _Course Instructor: Dr. Prabhat Prakash, Prof. William A. Goddard III_
 
-## Anouncements for SP 2026
+### Anouncements for SP 2026
 
 | 0 | New scripts are added to [Module1_DFT/data](Module1_DFT/data) useful for some initial ORCA code workflows (xtb, fast-DFT, potential energy scans). 
 
