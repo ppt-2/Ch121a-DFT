@@ -10,7 +10,7 @@ _Course Instructor: Dr. Prabhat Prakash, Prof. William A. Goddard III_
 
 **Sometimes, github does not render the notebooks properly. You can read the .md (markdown files) version of all notebooks kept in '[notebook-all-readable](notebook-all-readable)' folder.** 
 
-**Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in 'Initialization' directory** 
+**Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in '[Initialization](Initialization)' directory** 
 
 Only very basic examples are covered and most of those can easily run even on a laptop.
 
