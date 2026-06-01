@@ -8,7 +8,7 @@ _Course Instructor: Dr. Prabhat Prakash, Prof. William A. Goddard III_
 **For some of the proposed projects, practical workflow is now added here:
 [Module1_DFT/ Notebook 5](https://github.com/ppt-2/Ch121a-DFT/blob/main/Module1_DFT/notebooks_v2/05_practical_calculations.ipynb).**  
 
-**Sometimes, github does not render the notebooks properly. You can read the .md (markdown files) version of all notebooks kept in 'notebook-all-readable' folder.** 
+**Sometimes, github does not render the notebooks properly. You can read the .md (markdown files) version of all notebooks kept in '[notebook-all-readable](notebook-all-readable)' folder.** 
 
 **Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in 'Initialization' directory** 
 
