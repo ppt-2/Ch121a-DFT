@@ -4,6 +4,7 @@
 
 # Ch121a — Atomic-Level Simulations of Materials and Molecules
 _Course Instructor: Dr. Prabhat Prakash, Prof. William A. Goddard III_
+
 **For some of the proposed projects, practical workflow is now added here:
 [Module1_DFT/ Notebook 5](https://github.com/ppt-2/Ch121a-DFT/blob/main/Module1_DFT/notebooks_v2/05_practical_calculations.ipynb).**  
 
@@ -73,6 +74,7 @@ print(f"B3LYP/def2-SVP energy: {mf.e_tot:.6f} Hartree")
 | [Jaguar](https://www.schrodinger.com/jaguar) | 11.x | Commercial DFT, LMP2 | Commercial |
 | [cclib](https://cclib.github.io) | ≥ 1.8.1 | Parse QC output files | BSD-3 |
 | [py3Dmol](https://3dmol.csb.pitt.edu) | ≥ 2.1.0 | 3-D molecular viewer | BSD-3 |
+| [VASP](https://vasp.at/wiki/The_VASP_Manual) | ≥ 6.3.2 | Periodic DFT | Commercial |
 
 ---
 
@@ -95,19 +97,12 @@ If you use this material in your research or teaching, please cite:
 ```bibtex
 @misc{ch121a-dft,
   author       = {Prakash, Prabhat; Goddard III, William A.},
-  title        = {{Ch121a — Quantum Chemistry \& DFT in Practice}},
+  title        = {{Ch121a - Quantum Chemistry \& DFT in Practice}},
   year         = {2026},
   publisher    = {GitHub},
   url          = {https://github.com/ppt-2/Ch121a-DFT}
 }
 ```
-
-Read more about some of these codes at:
-
-- **PySCF**: Q. Sun *et al.*, *WIREs Comput. Mol. Sci.* **2018**, *8*, e1340.
-- **ORCA**: F. Neese *et al.*, *WIREs Comput. Mol. Sci.* **2022**, *12*, e1606.
-- **Jaguar**: A. D. Bochevarov *et al.*, *Int. J. Quantum Chem.* **2013**, *113*, 2110.
-
 ---
 
 ## License
