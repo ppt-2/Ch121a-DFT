@@ -10,11 +10,11 @@ _Course Instructor: Dr. Prabhat Prakash, Prof. William A. Goddard III_
 | 0 | New scripts are added to [Module1_DFT/data](Module1_DFT/data) useful for some initial ORCA code workflows (xtb, fast-DFT, potential energy scans). 
 
 | 1 | For some of the proposed projects, practical workflow is now added here:
-[Module1_DFT/ Notebook 5](https://github.com/ppt-2/Ch121a-DFT/blob/main/Module1_DFT/notebooks_v2/05_practical_calculations.ipynb).**  
+[Module1_DFT/ Notebook 5](https://github.com/ppt-2/Ch121a-DFT/blob/main/Module1_DFT/notebooks_v2/05_practical_calculations.ipynb).  
 
-| 2 | Sometimes, github does not render the notebooks properly. You can read the .md (markdown files) version of all notebooks kept in '[notebook-all-readable](notebook-all-readable)' folder.** 
+| 2 | Sometimes, github does not render the notebooks properly. You can read the .md (markdown files) version of all notebooks kept in '[notebook-all-readable](notebook-all-readable)' folder. 
 
-| 3 | Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in '[Initialization](Initialization)' directory** 
+| 3 | Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in '[Initialization](Initialization)' directory. 
 
 ---
 
