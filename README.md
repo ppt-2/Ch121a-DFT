@@ -2,7 +2,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 
-# Ch121a — Atomic-Level Simulations of Materials and Molecules
+# Ch121a: Atomic-Level Simulations of Materials and Molecules
 _Course Instructor: Dr. Prabhat Prakash, Prof. William A. Goddard III_
 
 **For some of the proposed projects, practical workflow is now added here:
@@ -12,7 +12,7 @@ _Course Instructor: Dr. Prabhat Prakash, Prof. William A. Goddard III_
 
 **Important instructions relevant to this class, hpc login, vi editor, linux commands, initial scripts are kept in 'Initialization' directory** 
 
-Only very basic examples are covered so that general calculations can run easily even on a laptop.
+Only very basic examples are covered and most of those can easily run even on a laptop.
 
 ---
 
