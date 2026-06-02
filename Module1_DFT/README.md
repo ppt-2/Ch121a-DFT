@@ -25,7 +25,9 @@ Only very basic examples are covered so that general calculations can run easily
 | 04 | Test Cases |
 | 05 | Practical workflow |
 
-A good review of composite methods: https://corinwagen.github.io/public/blog/20230922_composite.html
+## A good review of composite methods: 
+[https://corinwagen.github.io/public/blog/20230922_composite.html](https://corinwagen.github.io/public/blog/20230922_composite.html)
+
 ---
 
 ## Installation
