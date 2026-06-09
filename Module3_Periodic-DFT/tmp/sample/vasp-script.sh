@@ -4,12 +4,12 @@
 #SBATCH --time=0:30:00               # Time limit hrs:min:sec
 
 
-module load intel-oneapi-mkl/2023.2.0-gcc-11.3.1-idewa6m intel-oneapi-compilers/2023.2.1-gcc-11.3.1-xbceufh intel-oneapi-mpi/2021.11.0-oneapi-2023.2.1-atn5hhn
+module load "load arch specific modules|"
 pwd
 cwd=$(pwd)
 echo $SLURM_JOBID "${cwd}" >> ~/job_history
 ulimit -s unlimited
-mpirun -np 8 /resnick/groups/wag/programs/vasp.6.6.0/bin/vasp_std
+mpirun -np 8 path\ to\ vasp_std
 
 
 date
