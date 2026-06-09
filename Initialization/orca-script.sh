@@ -7,7 +7,7 @@ pwd
 cwd=$(pwd)
 echo $SLURM_JOBID "${cwd}" >> ~/job_history
 
-/central/software9/external/orca/orca_6_1_0_linux_x86-64_shared_openmpi418_avx2/orca test.inp > test.out
+path\ to\ executable\ of\ orca test.inp > test.out
 
 
 date
